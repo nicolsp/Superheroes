@@ -7,6 +7,8 @@ import okhttp3.internal.readFieldOrNull
 @Database(entities = [SuperHeroesEntity::class], version = 1)
 abstract class SuperHeroesDataBase : RoomDatabase() {
 
+
+    
     //dao
     abstract fun superHeroesDao(): SuperHeroesDao
 
